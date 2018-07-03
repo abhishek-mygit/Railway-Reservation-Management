@@ -1,0 +1,63 @@
+p
+{
+    color: white;
+    font-size: 30;
+    font-weight: bold;
+    font-family: Courier New, Courier, monospace;
+    -webkit-stroke-width: 20px;
+    -webkit-stroke-color: white;
+    -webkit-fill-color: white;
+    text-shadow: 1px 0px 20px lime;
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {float: right;}
+
+li a
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {background-color: limegreen;}
+
+.logo 
+{
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo a 
+{
+    color: grey;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.logo a:hover 
+{
+    color: white;
+    background-color: #333;
+}
+
+.form
+{
+    margin-top: 30px;
+    margin-left: 40px;
+    float: left;
+    text-align: left;
+    position: relative;
+}
+
+.ip {width: 120%;}
